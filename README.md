@@ -49,3 +49,6 @@ Este projeto é uma API para um sistema de avaliação e divulgação de restaur
 - rails db:migrate
 - rails db:seed
 - rails server
+
+## Executar testes
+- rspec
