@@ -13,7 +13,7 @@ RSpec.describe "Users", type: :request do
         expect {
           post users_path, params: { user: valid_attributes }
         }.to change(User, :count).by(1)
-        
+
         expect(response).to have_http_status(201)
         expect(JSON.parse(response.body)['username']).to eq("new_user")
       end

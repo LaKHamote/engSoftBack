@@ -7,4 +7,3 @@ FactoryBot.define do
       updated_at { Time.now }
     end
   end
-  

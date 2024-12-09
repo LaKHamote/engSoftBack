@@ -6,4 +6,4 @@ FactoryBot.define do
       restaurant # Associação com o restaurante
       user # Associação com o usuário
     end
-  end   
+  end

@@ -34,7 +34,7 @@ restaurant_names.each do |name|
     user: users.sample,
     name: name,
     description: "#{name} é conhecido por seus pratos incríveis e ambiente acolhedor.",
-    location: ["New York", "Paris", "Tokyo", "São Paulo", "Sydney"].sample
+    location: [ "New York", "Paris", "Tokyo", "São Paulo", "Sydney" ].sample
   )
 end
 puts "Criados #{restaurants.size} restaurantes únicos!"
